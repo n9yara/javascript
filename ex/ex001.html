@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+    <style>
+        body{
+            background-color: rgb(202, 144, 153);
+            color: white;
+            font-size: larger;
+            font-family: 'Calibri'
+            
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos de dom</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum ad libero, maxime culpa eaque aut distinctio ex illo, autem commodi repellat error iusto odio reprehenderit odit quos veniam nesciunt sunt.</p>
+    <div>clique em mim</div>
+    <p>lorem</p>
+    <script>
+        var p1 = window.document.getElementsByTagName('p')[1]
+        window.document.write(p1.innerText)
+        p1.style.color = 'lightgray'
+    </script>
+</body>
+</html>

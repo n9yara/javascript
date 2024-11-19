@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pais</title>
+</head>
+<body>
+    <h1>Nacionalidade</h1>
+    digite seu pais: <input type="text" value="" name="pais" id="fefe">
+    <input type="button" value="verificar" onclick="check()">
+    <div id="res">
+
+    </div>
+
+    <script>
+        function check(){
+            var pais = document.getElementById('fefe').value
+            var res = document.querySelector('div#res')
+        if (pais == 'Brazil'){
+            res.innerHTML = 'Brasil'
+            
+        }else{
+            res.innerHTML = 'N'
+        }
+        }
+    </script>
+</body>
+</html>
